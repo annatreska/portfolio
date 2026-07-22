@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – prace studenckie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=8">
+</head>
+<body>
+
+  <!-- ── Password gate (soft) ──────────────────────────────────────── -->
+  <div class="gate" id="gate">
+    <div class="gate-box">
+      <img class="gate-logo" src="logo.jpg?v=2" alt="dr Anna Treska-Siwoń — portfolio dydaktyczne" onerror="this.style.display='none'">
+      <form class="gate-form" id="gate-form">
+        <input class="gate-input" id="gate-input" type="password" placeholder="Hasło" autocomplete="off" aria-label="Hasło">
+        <button class="gate-btn" type="submit">Wejdź</button>
+      </form>
+      <p class="gate-error" id="gate-error" hidden>Nieprawidłowe hasło</p>
+    </div>
+  </div>
+
+  <!-- Mobile top bar (hidden on desktop) -->
+  <div class="mobile-bar" id="mobile-bar">
+    <a href="#" class="mobile-logo-link logo-link" data-action="home">
+      <!-- Docelowo: umieść plik logo jako prace_studenckie/logo.svg (lub .png) -->
+      <img src="logo_mobile.jpg?v=2" alt="dr Anna Treska-Siwoń — portfolio dydaktyczne" class="logo mobile-logo" onerror="this.style.display='none'">
+      <span class="logo-fallback">Portfolio</span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <!-- Overlay behind mobile sidebar -->
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+  <div class="layout">
+
+    <!-- ── SIDEBAR ──────────────────────────────────────────────── -->
+    <aside class="sidebar" id="sidebar">
+
+      <div class="sidebar-top">
+        <a href="#" class="logo-link desktop-logo-link" data-action="home" title="Strona główna">
+          <img src="logo.jpg?v=2" alt="dr Anna Treska-Siwoń — portfolio dydaktyczne" class="logo" onerror="this.style.display='none'">
+        </a>
+
+        <nav class="menu" aria-label="Główna nawigacja"></nav>
+
+        <!-- Category filter – shown only for tabs that have sub-categories -->
+        <section class="cat-section" id="cat-section" hidden>
+          <div class="cat-list" id="cat-list"></div>
+        </section>
+
+        <!-- Work info – shown when a work is selected -->
+        <section class="work-info" id="work-info" hidden>
+          <p class="info-row info-title"    id="info-title"></p>
+          <p class="info-row info-subtitle" id="info-subtitle"></p>
+          <p class="info-row info-category" id="info-category"></p>
+          <a class="work-open" id="work-open" href="#" target="_blank" rel="noopener">Otwórz w nowej karcie ↗</a>
+          <p class="info-row info-pos" id="info-pos"></p>
+        </section>
+
+        <!-- Tab intro text – shown for tabs that have a description (stays at the bottom) -->
+        <section class="tab-desc" id="tab-desc" hidden>
+          <p class="tab-desc-text" id="tab-desc-text"></p>
+        </section>
+      </div>
+
+      <div class="sidebar-footer">
+        <p class="copyright">© prace studenckie</p>
+      </div>
+    </aside>
+
+    <!-- ── CONTENT ───────────────────────────────────────────────── -->
+    <main class="content" id="content">
+      <div class="tab-panel" id="tab-panel">
+        <div class="grid-wrap" id="grid-wrap">
+          <div class="masonry-grid" id="grid"></div>
+        </div>
+        <div class="detail-panel" id="detail" hidden>
+          <button class="close-btn" id="detail-close" aria-label="Zamknij">&times;</button>
+          <div class="detail-body" id="detail-body"></div>
+          <div class="detail-nav" id="detail-nav">
+            <button class="nav-btn" id="detail-prev" aria-label="Poprzednia">&#8592;</button>
+            <button class="nav-btn" id="detail-next" aria-label="Następna">&#8594;</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="data.js?v=16"></script>
+  <script src="script.js?v=9"></script>
+</body>
+</html>
