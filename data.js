@@ -107,6 +107,203 @@ const TABS = [
     ]
   },
   {
+    "key": "grafika_ilustracyjna",
+    "label": "Grafika ilustracyjna",
+    "description": "",
+    "works": [
+      {
+        "title": "Damian Górecki",
+        "file": "prace/grafika_ilustracyjna/damian_goreckiortogramy.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/damian_goreckiortogramy.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/damian_goreckiortogramy.jpg"
+      },
+      {
+        "title": "Zuzanna Domaszewicz",
+        "file": "prace/grafika_ilustracyjna/domaszewicz_zuzanna_ortogramy.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/domaszewicz_zuzanna_ortogramy.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/domaszewicz_zuzanna_ortogramy.jpg"
+      },
+      {
+        "title": "Eryk Dykas",
+        "file": "prace/grafika_ilustracyjna/dykas_eryk_ortogramy.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/dykas_eryk_ortogramy.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/dykas_eryk_ortogramy.jpg"
+      },
+      {
+        "title": "Natalia Kowalik",
+        "file": "prace/grafika_ilustracyjna/kowalik_natalia_ortogram.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/kowalik_natalia_ortogram.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/kowalik_natalia_ortogram.jpg"
+      },
+      {
+        "title": "Magdalena Skalska",
+        "file": "prace/grafika_ilustracyjna/magdalena_skalska_ortogramy.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/magdalena_skalska_ortogramy.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/magdalena_skalska_ortogramy.jpg"
+      },
+      {
+        "title": "Maciej Nodzeński",
+        "file": "prace/grafika_ilustracyjna/nodzenski_maciej_ortogramy.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/nodzenski_maciej_ortogramy.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/nodzenski_maciej_ortogramy.jpg"
+      },
+      {
+        "title": "Klaudia Wiatr",
+        "file": "prace/grafika_ilustracyjna/ortogram_wiatr_klaudia.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/ortogram_wiatr_klaudia.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/ortogram_wiatr_klaudia.jpg"
+      },
+      {
+        "title": "Jakub Góralik",
+        "file": "prace/grafika_ilustracyjna/ortogramy_jakub_goralik.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/ortogramy_jakub_goralik.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/ortogramy_jakub_goralik.jpg"
+      },
+      {
+        "title": "Martyna Marczyńska",
+        "file": "prace/grafika_ilustracyjna/ortogramy_marczynska_martyna.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/ortogramy_marczynska_martyna.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/ortogramy_marczynska_martyna.jpg"
+      },
+      {
+        "title": "Małgorzata Rudnik",
+        "file": "prace/grafika_ilustracyjna/ortogramy_rudnik_malgorzata.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/ortogramy_rudnik_malgorzata.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/ortogramy_rudnik_malgorzata.jpg"
+      },
+      {
+        "title": "Magdalena Piwowar",
+        "file": "prace/grafika_ilustracyjna/piwowar_magdalena_ortogramy.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/piwowar_magdalena_ortogramy.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/piwowar_magdalena_ortogramy.jpg"
+      },
+      {
+        "title": "Sebastian Skorupa",
+        "file": "prace/grafika_ilustracyjna/skorupa_sebastian_ortogramy.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/skorupa_sebastian_ortogramy.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/skorupa_sebastian_ortogramy.jpg"
+      },
+      {
+        "title": "Sonia Kuglin",
+        "file": "prace/grafika_ilustracyjna/sonia_kuglin_ortogramy.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/sonia_kuglin_ortogramy.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/sonia_kuglin_ortogramy.jpg"
+      },
+      {
+        "title": "Anna Sowińska",
+        "file": "prace/grafika_ilustracyjna/sowinska_anna.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/sowinska_anna.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/sowinska_anna.jpg"
+      },
+      {
+        "title": "Zuzanna Szopińska",
+        "file": "prace/grafika_ilustracyjna/szopinska_zuzanna_ortogramy.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/szopinska_zuzanna_ortogramy.png",
+        "type": "pdf",
+        "pages": 2,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/szopinska_zuzanna_ortogramy.jpg"
+      },
+      {
+        "title": "Klaudia Topór",
+        "file": "prace/grafika_ilustracyjna/topor_klaudia_ortogramy.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/topor_klaudia_ortogramy.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/topor_klaudia_ortogramy.jpg"
+      },
+      {
+        "title": "Alicja Cinal",
+        "file": "prace/grafika_ilustracyjna/ortogramy_alicja_cinal.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/ortogramy_alicja_cinal.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/ortogramy_alicja_cinal.jpg"
+      },
+      {
+        "title": "Weronika Stefańczyk",
+        "file": "prace/grafika_ilustracyjna/ortogramy_weronika_stefanczyk.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/ortogramy_weronika_stefanczyk.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/ortogramy_weronika_stefanczyk.jpg"
+      },
+      {
+        "title": "Oliwia Wierciak",
+        "file": "prace/grafika_ilustracyjna/ortogramy_wierciak.pdf",
+        "thumb": "miniatury/grafika_ilustracyjna/ortogramy_wierciak.png",
+        "type": "pdf",
+        "pages": 1,
+        "category": "",
+        "selected": false,
+        "preview": "podglad/grafika_ilustracyjna/ortogramy_wierciak.jpg"
+      }
+    ]
+  },
+  {
     "key": "grafika_informacyjna",
     "label": "Grafika informacyjna",
     "description": "",
@@ -247,196 +444,6 @@ const TABS = [
         "category": "edukacja medialna",
         "selected": false,
         "preview": "podglad/grafika_informacyjna/poczto_wki_pawel_deka.jpg"
-      },
-      {
-        "title": "Damian Górecki",
-        "file": "prace/grafika_informacyjna/damian_go_reckiortogramy.pdf",
-        "thumb": "miniatury/grafika_informacyjna/damian_go_reckiortogramy.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/damian_go_reckiortogramy.jpg"
-      },
-      {
-        "title": "Zuzanna Domaszewicz",
-        "file": "prace/grafika_informacyjna/domaszewicz_zuzanna_ortogramy.pdf",
-        "thumb": "miniatury/grafika_informacyjna/domaszewicz_zuzanna_ortogramy.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/domaszewicz_zuzanna_ortogramy.jpg"
-      },
-      {
-        "title": "Eryk Dykas",
-        "file": "prace/grafika_informacyjna/dykas_eryk_ortogramy.pdf",
-        "thumb": "miniatury/grafika_informacyjna/dykas_eryk_ortogramy.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/dykas_eryk_ortogramy.jpg"
-      },
-      {
-        "title": "Natalia Kowalik",
-        "file": "prace/grafika_informacyjna/kowalik_natalia_ortogram.pdf",
-        "thumb": "miniatury/grafika_informacyjna/kowalik_natalia_ortogram.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/kowalik_natalia_ortogram.jpg"
-      },
-      {
-        "title": "Magdalena Skalska",
-        "file": "prace/grafika_informacyjna/magdalena_skalska_ortogramy.pdf",
-        "thumb": "miniatury/grafika_informacyjna/magdalena_skalska_ortogramy.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/magdalena_skalska_ortogramy.jpg"
-      },
-      {
-        "title": "Maciej Nodzeński",
-        "file": "prace/grafika_informacyjna/nodzenski_maciej_ortogramy.pdf",
-        "thumb": "miniatury/grafika_informacyjna/nodzenski_maciej_ortogramy.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/nodzenski_maciej_ortogramy.jpg"
-      },
-      {
-        "title": "Klaudia Wiatr",
-        "file": "prace/grafika_informacyjna/ortogram_wiatr_klaudia.pdf",
-        "thumb": "miniatury/grafika_informacyjna/ortogram_wiatr_klaudia.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/ortogram_wiatr_klaudia.jpg"
-      },
-      {
-        "title": "Jakub Góralik",
-        "file": "prace/grafika_informacyjna/ortogramy_jakub_goralik.pdf",
-        "thumb": "miniatury/grafika_informacyjna/ortogramy_jakub_goralik.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/ortogramy_jakub_goralik.jpg"
-      },
-      {
-        "title": "Martyna Marczyńska",
-        "file": "prace/grafika_informacyjna/ortogramy_marczynska_martyna.pdf",
-        "thumb": "miniatury/grafika_informacyjna/ortogramy_marczynska_martyna.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/ortogramy_marczynska_martyna.jpg"
-      },
-      {
-        "title": "Małgorzata Rudnik",
-        "file": "prace/grafika_informacyjna/ortogramy_rudnik_malgorzata.pdf",
-        "thumb": "miniatury/grafika_informacyjna/ortogramy_rudnik_malgorzata.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/ortogramy_rudnik_malgorzata.jpg"
-      },
-      {
-        "title": "Magdalena Piwowar",
-        "file": "prace/grafika_informacyjna/piwowar_magdalena_ortogramy.pdf",
-        "thumb": "miniatury/grafika_informacyjna/piwowar_magdalena_ortogramy.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/piwowar_magdalena_ortogramy.jpg"
-      },
-      {
-        "title": "Sebastian Skorupa",
-        "file": "prace/grafika_informacyjna/skorupa_sebastian_ortogramy.pdf",
-        "thumb": "miniatury/grafika_informacyjna/skorupa_sebastian_ortogramy.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/skorupa_sebastian_ortogramy.jpg"
-      },
-      {
-        "title": "Sonia Kuglin",
-        "file": "prace/grafika_informacyjna/sonia_kuglin_ortogramy.pdf",
-        "thumb": "miniatury/grafika_informacyjna/sonia_kuglin_ortogramy.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/sonia_kuglin_ortogramy.jpg"
-      },
-      {
-        "title": "Anna Sowińska",
-        "file": "prace/grafika_informacyjna/sowinska_anna.pdf",
-        "thumb": "miniatury/grafika_informacyjna/sowinska_anna.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/sowinska_anna.jpg"
-      },
-      {
-        "title": "Zuzanna Szopińska",
-        "file": "prace/grafika_informacyjna/szopinska_zuzanna_ortogramy.pdf",
-        "thumb": "miniatury/grafika_informacyjna/szopinska_zuzanna_ortogramy.png",
-        "type": "pdf",
-        "pages": 2,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/szopinska_zuzanna_ortogramy.jpg"
-      },
-      {
-        "title": "Klaudia Topór",
-        "file": "prace/grafika_informacyjna/topor_klaudia_ortogramy.pdf",
-        "thumb": "miniatury/grafika_informacyjna/topor_klaudia_ortogramy.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/topor_klaudia_ortogramy.jpg"
-      },
-      {
-        "title": "Alicja Cinal",
-        "file": "prace/grafika_informacyjna/ortogramy_alicja_cinal.pdf",
-        "thumb": "miniatury/grafika_informacyjna/ortogramy_alicja_cinal.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/ortogramy_alicja_cinal.jpg"
-      },
-      {
-        "title": "Weronika Stefańczyk",
-        "file": "prace/grafika_informacyjna/ortogramy_weronika_stefanczyk.pdf",
-        "thumb": "miniatury/grafika_informacyjna/ortogramy_weronika_stefanczyk.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/ortogramy_weronika_stefanczyk.jpg"
-      },
-      {
-        "title": "Oliwia Wierciak",
-        "file": "prace/grafika_informacyjna/ortogramy_wierciak.pdf",
-        "thumb": "miniatury/grafika_informacyjna/ortogramy_wierciak.png",
-        "type": "pdf",
-        "pages": 1,
-        "category": "ortogramy",
-        "selected": false,
-        "preview": "podglad/grafika_informacyjna/ortogramy_wierciak.jpg"
       },
       {
         "title": "Tymoteusz Chełmecki",
