@@ -63,27 +63,25 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 
 .gate-inner {
   width: 100%;
-  max-width: 720px;
+  max-width: 560px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 56px;
+  align-items: stretch;   /* logo + options share the same width and align */
+  gap: 52px;
 }
-.gate-logo { width: 100%; max-width: 460px; height: auto; display: block; }
+.gate-logo { width: 100%; max-width: none; height: auto; display: block; }
 
+/* two columns pinned to the logo's left & right edges, gap in the middle */
 .gate-options {
-  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
-  gap: 72px;
-  flex-wrap: wrap;
 }
 .gate-col {
+  width: 40%;
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  min-width: 210px;
+  gap: 26px;
 }
 .gate-col-title {
   font-family: 'Ubuntu', 'Barlow', sans-serif;
@@ -95,8 +93,8 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 .gate-pdf {
   position: relative;
   display: inline-block;
-  width: 130px;
-  min-height: 140px;   /* reserve room for the figure so hover doesn't shift layout */
+  width: 90px;
+  min-height: 74px;   /* reserve room for the figure so hover doesn't shift layout */
 }
 .gate-pdf-label {
   font-family: 'Ubuntu', 'Barlow', sans-serif;
@@ -108,9 +106,9 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 .gate-pdf:hover .gate-pdf-label { opacity: 0; }
 .gate-pdf-fig {
   position: absolute;
-  top: -8px;
-  left: -4px;
-  height: 140px;
+  top: -6px;
+  left: 0;
+  height: 74px;
   width: auto;
   opacity: 0;
   transition: opacity 0.15s;
@@ -118,11 +116,10 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 }
 .gate-pdf:hover .gate-pdf-fig { opacity: 1; }
 
-/* dydaktyczne: password field */
+/* dydaktyczne: password field (fills its column) */
 .gate-form { display: flex; }
 .gate-input {
-  width: 240px;
-  max-width: 100%;
+  width: 100%;
   border: 1px solid var(--black);
   padding: 10px 12px;
   font-family: var(--font);
@@ -132,6 +129,12 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 }
 .gate-input::placeholder { color: #9a9a9a; }
 .gate-error { font-size: 12px; color: #c0392b; margin-top: -6px; }
+
+/* narrow screens: stack the two options full width */
+@media (max-width: 560px) {
+  .gate-options { flex-direction: column; gap: 40px; }
+  .gate-col { width: 100%; }
+}
 
 /* ── Sidebar overlay (mobile only) ───────────────────────────────── */
 .sidebar-overlay {
