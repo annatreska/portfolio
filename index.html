@@ -7,19 +7,32 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
 
-  <!-- ── Password gate (soft) ──────────────────────────────────────── -->
+  <!-- ── Start screen / password gate (soft) ───────────────────────── -->
   <div class="gate" id="gate">
-    <div class="gate-box">
-      <img class="gate-logo" src="logo.jpg?v=2" alt="dr Anna Treska-Siwoń — portfolio dydaktyczne" onerror="this.style.display='none'">
-      <form class="gate-form" id="gate-form">
-        <input class="gate-input" id="gate-input" type="password" placeholder="Hasło" autocomplete="off" aria-label="Hasło">
-        <button class="gate-btn" type="submit">Wejdź</button>
-      </form>
-      <p class="gate-error" id="gate-error" hidden>Nieprawidłowe hasło</p>
+    <div class="gate-inner">
+      <img class="gate-logo" src="logo_start.jpg?v=1" alt="dr Anna Treska-Siwoń">
+      <div class="gate-options">
+        <!-- portfolio projektowe → PDF (with drawn figure on hover) -->
+        <div class="gate-col">
+          <p class="gate-col-title">portfolio projektowe</p>
+          <a class="gate-pdf" href="portfolio_ats2026.pdf" target="_blank" rel="noopener" aria-label="portfolio projektowe (PDF)">
+            <span class="gate-pdf-label">PDF</span>
+            <img class="gate-pdf-fig" src="zunia.jpg?v=1" alt="" aria-hidden="true">
+          </a>
+        </div>
+        <!-- portfolio dydaktyczne → password -->
+        <div class="gate-col">
+          <p class="gate-col-title">portfolio dydaktyczne</p>
+          <form class="gate-form" id="gate-form">
+            <input class="gate-input" id="gate-input" type="password" placeholder="hasło" autocomplete="off" aria-label="Hasło">
+          </form>
+          <p class="gate-error" id="gate-error" hidden>Nieprawidłowe hasło</p>
+        </div>
+      </div>
     </div>
   </div>
 
