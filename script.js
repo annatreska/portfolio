@@ -17,21 +17,19 @@ document.addEventListener('DOMContentLoaded', () => {
   switchTab(TABS[0].key);
 });
 
-/* ── Password gate (soft — not real security) ──────────────────────── */
-const GATE_KEY  = 'pf_unlocked';
+/* ── Password gate (soft — not real security) ──────────────────────────
+   No persistence: the start screen shows on every load and the password must
+   be entered again each time (also when reopening in the same browser). */
 const GATE_PASS = 'ulm';
 function initGate() {
   const gate = $('gate');
   if (!gate) return;
-  if (localStorage.getItem(GATE_KEY) === '1') { gate.hidden = true; return; }
   const form  = $('gate-form');
   const input = $('gate-input');
   const error = $('gate-error');
-  setTimeout(() => input.focus(), 50);
   form.addEventListener('submit', e => {
     e.preventDefault();
     if (input.value.trim().toLowerCase() === GATE_PASS) {
-      localStorage.setItem(GATE_KEY, '1');
       gate.hidden = true;
     } else {
       error.hidden = false;
@@ -39,6 +37,15 @@ function initGate() {
       input.focus();
     }
   });
+}
+
+/* Bring the start screen back (logo click = "return to the main page") */
+function showGate() {
+  const gate = $('gate');
+  if (!gate) return;
+  $('gate-input').value = '';
+  $('gate-error').hidden = true;
+  gate.hidden = false;
 }
 
 /* ── Menu ──────────────────────────────────────────────────────────── */
@@ -244,13 +251,13 @@ function bindDetailClose() {
   });
 }
 
-/* ── Logo → home (first tab) ───────────────────────────────────────── */
+/* ── Logo → back to the start screen ───────────────────────────────── */
 function bindLogo() {
   document.querySelectorAll('.logo-link').forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault();
-      switchTab(TABS[0].key);
       if (window.innerWidth <= 699) closeMobileMenu();
+      showGate();   // return to the first screen (must log in again to re-enter)
     });
   });
 }
