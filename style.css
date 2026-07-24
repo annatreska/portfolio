@@ -23,7 +23,7 @@
   --black:     #000;
   --white:     #fff;
   --sidebar-w: 33.333vw;
-  --mobile-bar-h: 56px;
+  --mobile-bar-h: 64px;
 }
 
 html { height: 100%; }
@@ -470,7 +470,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
     background: var(--white);
     z-index: 100;
   }
-  .mobile-logo { max-width: 140px; }
+  .mobile-logo { max-width: 220px; }
   .mobile-logo-link .logo-fallback {
     display: inline;
     font-family: 'Ubuntu', sans-serif;
@@ -511,6 +511,22 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   .tab-panel.detail-active .grid-wrap { display: none; }
   .tab-panel.detail-active .detail-panel {
     flex: 1; width: 100%; border-left: none;
+  }
+
+  /* Detail image fits fully on screen (contain), centred — consistent size
+     for every aspect ratio and no vertical scroll (so nothing "floats" as the
+     iOS toolbar collapses). */
+  .detail-body.is-image {
+    justify-content: center;
+    overflow: hidden;
+    padding: 14px;
+  }
+  .detail-body.is-image .detail-img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 0;
   }
 
   .masonry-grid { column-count: 2; }
